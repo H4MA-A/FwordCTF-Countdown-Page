@@ -6,7 +6,7 @@
 * Theme Name: SRPACDY
  */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body {
 	color: #fff;
@@ -15,6 +15,8 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	font-family: 'Aldrich', sans-serif;
+	
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
@@ -29,11 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER */
 
 .header {
-	color: #fff;
+	color: #ffffff;
 	margin: 0;
 	position: relative;
 	width: 100%;	
-    padding: 5% 0 10%;
+	padding: 5% 0 10%;
+	opacity: 0.8;
+	
 }
 .header:after{
 	content: "";
@@ -44,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	z-index: -1;
 	background-color: rgba(0,0,0,.3);
+	opacity: 0.8;
 }
 .header .col-xs-12{
 	position: static;
@@ -64,17 +69,19 @@ h1, h2, h3, h4, h5, h6 {
 .time {
 	color: #fff;
 	display: block;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 18px;
 	margin: 0;
 	position: relative;
+	font-family: 'Aldrich', sans-serif;
+	opacity: 0.8;
 }
 .time span {
 	display: inline-block;
-	font-size: 120px;
+	font-size: 50px;
 	font-weight: 300;
 	line-height: 120px;
-	margin: 0 0 20px;
+	margin: 0 0 0px;
 }
 ul.time {
     list-style: none outside none;
@@ -120,6 +127,7 @@ ul.time li {
 
 .about{
 	background: #fff;
+	
 }
 .about h2{
 	color: #000;
@@ -137,43 +145,12 @@ ul.time li {
 }
 .about-content{
 	margin: 30px 0;
+	font-family: 'Aldrich', sans-serif;
 }
 
 /* END ABOUT */
 
-/* FEATURES */
 
-.features{
-	background: #eee;
-}
-.features h2{
-	color: #000;
-}
-.features-content{
-	margin: 30px 0 0;
-}
-.grid{
-	margin-top: 40px;
-}
-.grid p{
-	font-size: 19px;
-	color: #000;
-	line-height: 1.8;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	letter-spacing: .5px;
-}
-.grid i{
-	color: #000;
-}
-.grid b{
-	display: block;
-	color: #f83145;
-	font-size: 19px;
-	font-weight: 700;
-}
-
-/* END FEATURES */
 
 /* SOCIAL MEDIA */
 
@@ -182,6 +159,8 @@ ul.time li {
 }
 .social-content{
 	margin: 30px 0;
+	font-family: 'Aldrich', sans-serif;
+	
 }
 .socmed {
 	margin-top: 30px;
@@ -199,144 +178,15 @@ ul.time li {
 	-ms-transition:all .3s;
 }
 .socmed a:hover{
-	color:#bf0013;
+	color:#000000;
 }
 
 /* END SOCIAL MEDIA */
 
-/* SUBSCRIBE */
-
-.subscribe {
-	background: #fff;
-	color: #222;
-}
-.subscribe h1{
-	color: #000;
-}
-.subscribe-form {
-	margin: 30px 0;
-}
-.subscribe-form i {
-	margin: 0 0 20px 0;
-}
-.subscribe-form form {
-	margin: 44px 0 0 0;
-}
-.subscribe input[type=text] { 
-	display: block;
-	background: #fff;
-	border: 1px solid #cccccc;
-	border-radius: 30px;
-	color: #888;
-	padding: 11.5px 25px;
-	width: 80%;
-	font-weight: 400;
-	color: #999;
-	margin: 0 auto 20px;
-	}
-.subscribe input[type=submit] {
-	background: #f83145;
-	border: 0;
-	border-radius: 30px;
-	color: #fff;
-	cursor: pointer;
-	margin-left: 20px; 
-	padding: 11.5px 25px;
-	position: relative; 
-	font-size: 15px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	}
-	
-/* END SUBSCRIBE */
-
-/* CONTACT */
-
-.contact {
-	color: #fff;
-	display: block;	
-	margin: 0;
-	padding: 30px 0;
-	position: relative;
-	width: 100%;
-}
-.contact-details {
-	font-size: 20px;
-	margin: 30px 0;
-}
-.contact-details i {
-	font-size: 18px;
-	margin-right: 10px;
-}
-.contact-details a{
-	color: #fff;
-	-o-transition:all .3s;
-	-moz-transition:all .3s;
-	-webkit-transition:all .3s;
-	-ms-transition:all .3s;
-}
-.contact-details a:hover{
-	color: #3DBEED;
-	text-decoration: none;
-}
-.contact_form {
-	margin: 30px 0 0;
-}
-.contact_form label {
-	float: left;
-	font-weight: normal;
-	height: 25px;
-	margin: 5px 0;
-	padding: 5px 0 0;
-	width: 100px;
-}
-.contact_form input {
-	background: #fff;
-	border: none;
-	font-size: 15px;
-	color: #999;
-	float: left;
-	font-weight: normal;
-	margin: 5px 0;
-	padding: 11.5px 20px;
-	width: 100%;
-}
-.contact_form textarea {
-	background: #fff;
-	border: none;
-	font-weight: 400;
-	font-size: 15px;
-	color: #999;
-	margin: 5px 0 15px;
-	padding: 11.5px 20px;
-	width: 100%;
-}
-.contact_form input[type="submit"] {
-	float: none;
-	background: #f83145;
-	border: 0;
-	border-radius: 30px;
-	color: #fff;
-	cursor: pointer;
-	padding: 11.5px 25px;
-	position: relative; 
-	font-size: 15px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	width: auto;	
-}
-.contact_form input[type="submit"] a:hover{
-	background: #000;	
-}
-
-/* END CONTACT */
-
 /* FOOTER */
 
 .footer {
-    background: #fff;
+    background: #000000;
 	display: block;
 	margin: 0;
 	padding: 15px 0;
@@ -587,3 +437,13 @@ ul.time li {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+h1{
+	font-family: 'Aldrich', sans-serif;
+	opacity: 0.8;
+}
+h1 strong {
+    font-weight: 400;
+	color: #ea4c4c;
+	font-family: 'Aldrich', sans-serif;
+  }
